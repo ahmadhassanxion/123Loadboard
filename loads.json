@@ -1,0 +1,6533 @@
+{
+  "url": "https://members.123loadboard.com/api/loads/named-searches/921a38eb-f214-44a3-9b51-0b28afdd8177/search",
+  "status": 200,
+  "data": {
+    "loads": [
+      {
+        "postReference": "PL3875467",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 39.73992,
+            "longitude": -104.86161
+          },
+          "address": {
+            "city": "Aurora",
+            "state": "CO",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Tue, 26 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-26"
+        ],
+        "deliveryDateTime": "Thu, 28 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 41000,
+        "rate": {
+          "amount": 2900,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "846b937a-52c7-477d-b8fe-e141c01af435",
+        "computedMileage": 1027,
+        "status": "Online",
+        "age": 152,
+        "created": "Thu, 14 Aug 2025 14:55:17 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 09:10:16 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 09:10:16 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "aeab76df-9e3c-4873-999e-058d55ddcec7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 471231,
+            "purpose": 1
+          },
+          "name": "Logistic Dynamics, LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 2,
+          "userdata": {
+            "isGone": false,
+            "isViewed": true,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "94",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "34",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "34",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "pricePerMile": 2.8237,
+        "transCreditRating": 94,
+        "transCreditDaysToPay": 34,
+        "pickupDateTimesUtc": [
+          "Tue, 26 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Fri, 29 Aug 2025 03:59:00 GMT",
+        "routeToll": 0,
+        "driveTime": 64560
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 42.96507,
+            "longitude": -85.6723
+          },
+          "address": {
+            "city": "Grand Rapids",
+            "state": "MI",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22",
+          "2025-08-23",
+          "2025-08-24",
+          "2025-08-25",
+          "2025-08-26",
+          "2025-08-27",
+          "2025-08-28",
+          "2025-08-29",
+          "2025-08-30",
+          "2025-08-31"
+        ],
+        "equipments": [
+          {
+            "equipmentType": "Flatbed",
+            "equipmentSpecifications": "Conestoga, HazMat"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "Batteries",
+        "id": "97cba9ca-2fef-43f4-a91b-62d8a75338db",
+        "computedMileage": 2182,
+        "status": "Online",
+        "age": 18766,
+        "created": "Thu, 14 Aug 2025 15:41:34 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 04:00:02 GMT",
+        "lastRefreshed": "Tue, 19 Aug 2025 09:27:39 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "5631aa8b-7ad5-4de7-ab74-bd96d19ccf13",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 761291,
+            "purpose": 1
+          },
+          "name": "Circle Logistics Inc"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 2,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "88",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "39",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "40",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "F(COZ)",
+        "isRefreshedLoad": false,
+        "transCreditRating": 88,
+        "transCreditDaysToPay": 39,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "routeToll": 6.1,
+        "driveTime": 145980
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.93348,
+            "longitude": -95.7697
+          },
+          "address": {
+            "city": "McAlester",
+            "state": "OK",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Flatbed",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 40,
+        "weight": 13400,
+        "rate": {
+          "amount": 2400,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "27db0705-2931-47c1-b2ff-e308d4c3ee63",
+        "computedMileage": 1459,
+        "status": "Online",
+        "age": 1098,
+        "created": "Wed, 20 Aug 2025 03:04:35 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:54:30 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:54:30 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "49ea2011-05f9-4e21-bdb0-0e7ae74ea9da",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 315784,
+            "purpose": 1
+          },
+          "name": "Online Freight Services, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 1,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "33",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "F",
+        "isRefreshedLoad": false,
+        "pricePerMile": 1.6449,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT"
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.93348,
+            "longitude": -95.7697
+          },
+          "address": {
+            "city": "McAlester",
+            "state": "OK",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Flatbed",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 40,
+        "weight": 13400,
+        "rate": {
+          "amount": 2400,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "2c01e383-da85-4a03-ab2f-b64479eddcd7",
+        "computedMileage": 1459,
+        "status": "Online",
+        "age": 1096,
+        "created": "Fri, 22 Aug 2025 03:03:48 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:54:32 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:54:32 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "49ea2011-05f9-4e21-bdb0-0e7ae74ea9da",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 315784,
+            "purpose": 1
+          },
+          "name": "Online Freight Services, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "33",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "F",
+        "isRefreshedLoad": false,
+        "pricePerMile": 1.6449,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT"
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.93348,
+            "longitude": -95.7697
+          },
+          "address": {
+            "city": "McAlester",
+            "state": "OK",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Flatbed",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 48,
+        "weight": 13400,
+        "rate": {
+          "amount": 2400,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "51b6abfd-0dfc-4d50-9350-9b0021500b91",
+        "computedMileage": 1459,
+        "status": "Online",
+        "age": 1099,
+        "created": "Wed, 20 Aug 2025 03:04:35 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:54:29 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:54:29 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "49ea2011-05f9-4e21-bdb0-0e7ae74ea9da",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 315784,
+            "purpose": 1
+          },
+          "name": "Online Freight Services, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "33",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "F",
+        "isRefreshedLoad": false,
+        "pricePerMile": 1.6449,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT"
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.93348,
+            "longitude": -95.7697
+          },
+          "address": {
+            "city": "McAlester",
+            "state": "OK",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Flatbed",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 48,
+        "weight": 13400,
+        "rate": {
+          "amount": 2400,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "87c24b78-b312-4878-9914-5719a127ebe5",
+        "computedMileage": 1459,
+        "status": "Online",
+        "age": 1097,
+        "created": "Fri, 22 Aug 2025 03:03:48 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:54:31 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:54:31 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "49ea2011-05f9-4e21-bdb0-0e7ae74ea9da",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 315784,
+            "purpose": 1
+          },
+          "name": "Online Freight Services, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "33",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "F",
+        "isRefreshedLoad": false,
+        "pricePerMile": 1.6449,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT"
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.93348,
+            "longitude": -95.7697
+          },
+          "address": {
+            "city": "McAlester",
+            "state": "OK",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Flatbed",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 40,
+        "weight": 13400,
+        "rate": {
+          "amount": 2400,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "91b8c5ca-97d5-4e1d-b942-e87a23e39561",
+        "computedMileage": 1459,
+        "status": "Online",
+        "age": 1097,
+        "created": "Wed, 20 Aug 2025 23:30:17 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:54:31 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:54:31 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "49ea2011-05f9-4e21-bdb0-0e7ae74ea9da",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 315784,
+            "purpose": 1
+          },
+          "name": "Online Freight Services, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "33",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "F",
+        "isRefreshedLoad": false,
+        "pricePerMile": 1.6449,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT"
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.93348,
+            "longitude": -95.7697
+          },
+          "address": {
+            "city": "McAlester",
+            "state": "OK",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Flatbed",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 48,
+        "weight": 13400,
+        "rate": {
+          "amount": 2400,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "e79e8dec-e2a3-4039-a813-e0e71174f1cf",
+        "computedMileage": 1459,
+        "status": "Online",
+        "age": 1098,
+        "created": "Wed, 20 Aug 2025 23:30:17 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:54:30 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:54:30 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "49ea2011-05f9-4e21-bdb0-0e7ae74ea9da",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 315784,
+            "purpose": 1
+          },
+          "name": "Online Freight Services, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "33",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "F",
+        "isRefreshedLoad": false,
+        "pricePerMile": 1.6449,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT"
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.93348,
+            "longitude": -95.7697
+          },
+          "address": {
+            "city": "McAlester",
+            "state": "OK",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "StepDeck",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 13400,
+        "rate": {
+          "amount": 2400,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "04ae4574-2758-4edc-8eb4-cc401c0277b6",
+        "computedMileage": 1459,
+        "status": "Online",
+        "age": 1097,
+        "created": "Wed, 20 Aug 2025 23:30:17 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:54:31 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:54:31 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "49ea2011-05f9-4e21-bdb0-0e7ae74ea9da",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 315784,
+            "purpose": 1
+          },
+          "name": "Online Freight Services, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "33",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "SD",
+        "isRefreshedLoad": false,
+        "pricePerMile": 1.6449,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT"
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.93348,
+            "longitude": -95.7697
+          },
+          "address": {
+            "city": "McAlester",
+            "state": "OK",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "StepDeck",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 13400,
+        "rate": {
+          "amount": 2400,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "28433d1d-432e-4e7f-942e-23f9ddbc5b93",
+        "computedMileage": 1459,
+        "status": "Online",
+        "age": 1098,
+        "created": "Wed, 20 Aug 2025 03:04:36 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:54:30 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:54:30 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "49ea2011-05f9-4e21-bdb0-0e7ae74ea9da",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 315784,
+            "purpose": 1
+          },
+          "name": "Online Freight Services, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "33",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "SD",
+        "isRefreshedLoad": false,
+        "pricePerMile": 1.6449,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT"
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.93348,
+            "longitude": -95.7697
+          },
+          "address": {
+            "city": "McAlester",
+            "state": "OK",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "StepDeck",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 13400,
+        "rate": {
+          "amount": 2400,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "8d578893-ed84-4ea9-a009-f930a352791b",
+        "computedMileage": 1459,
+        "status": "Online",
+        "age": 1096,
+        "created": "Fri, 22 Aug 2025 03:03:48 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:54:32 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:54:32 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "49ea2011-05f9-4e21-bdb0-0e7ae74ea9da",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 315784,
+            "purpose": 1
+          },
+          "name": "Online Freight Services, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "33",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "SD",
+        "isRefreshedLoad": false,
+        "pricePerMile": 1.6449,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT"
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 33.14053,
+            "longitude": -96.1048
+          },
+          "address": {
+            "city": "Greenville",
+            "state": "TX",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 43000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "0c319c5e-b1d7-49f2-8161-fbdb653e23a4",
+        "computedMileage": 1458,
+        "status": "Online",
+        "age": 91323,
+        "created": "Thu, 21 Aug 2025 07:50:45 GMT",
+        "lastUpdated": "Thu, 21 Aug 2025 07:50:45 GMT",
+        "lastRefreshed": "Thu, 21 Aug 2025 16:48:11 GMT",
+        "isDateRefreshed": true,
+        "poster": {
+          "id": "9b82d0cb-4b4a-46a1-9f58-3c9395eb685b",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 397317,
+            "purpose": 1
+          },
+          "name": "The Worthington Company"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "98",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "23",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "36",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 98,
+        "transCreditDaysToPay": 23,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "routeToll": 0,
+        "driveTime": 91980
+      },
+      {
+        "postReference": "PL3877828",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.06336,
+            "longitude": -118.24906
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 27.50768,
+            "longitude": -99.5029
+          },
+          "address": {
+            "city": "Laredo",
+            "state": "TX",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Sat, 23 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-23"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 42000,
+        "numberOfStops": 0,
+        "teamDriving": true,
+        "id": "4b4f2c7f-bfb4-4d81-ae5a-9ac01ec16951",
+        "computedMileage": 1509,
+        "status": "Online",
+        "age": 147,
+        "created": "Mon, 18 Aug 2025 14:03:24 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 09:10:21 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 09:10:21 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "aeab76df-9e3c-4873-999e-058d55ddcec7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 471231,
+            "purpose": 1
+          },
+          "name": "Logistic Dynamics, LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 0
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "94",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "34",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "34",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "transCreditRating": 94,
+        "transCreditDaysToPay": 34,
+        "pickupDateTimesUtc": [
+          "Sat, 23 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT",
+        "routeToll": 0,
+        "driveTime": 92520
+      },
+      {
+        "postReference": "0141618-131441",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.03856,
+            "longitude": -118.26869
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90015",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 38.48354,
+            "longitude": -121.35199
+          },
+          "address": {
+            "city": "Sacramento",
+            "state": "CA",
+            "zipCode": "95829",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Sun, 24 Aug 2025 12:30:00 GMT",
+        "pickupDates": [
+          "2025-08-24"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 07:30:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "PowerOnly",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 42000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "SHOW EQUIPMENT",
+        "id": "e5fde72a-9144-4190-973c-2914362d0cbb",
+        "computedMileage": 381,
+        "status": "Online",
+        "age": 151604,
+        "created": "Wed, 20 Aug 2025 15:06:04 GMT",
+        "lastUpdated": "Wed, 20 Aug 2025 15:06:04 GMT",
+        "lastRefreshed": "Wed, 20 Aug 2025 15:06:04 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "c9719290-9b87-4319-aa19-e2f7f457488a",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 460950,
+            "purpose": 1
+          },
+          "name": "Full Tilt Logistics LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 2
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "96",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "25",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "36",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "PO",
+        "isRefreshedLoad": false,
+        "transCreditRating": 96,
+        "transCreditDaysToPay": 25,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Sun, 24 Aug 2025 22:30:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Mon, 25 Aug 2025 11:30:00 GMT"
+      },
+      {
+        "postReference": "0141619-131442",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.03856,
+            "longitude": -118.26869
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90015",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 38.48354,
+            "longitude": -121.35199
+          },
+          "address": {
+            "city": "Sacramento",
+            "state": "CA",
+            "zipCode": "95829",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Sun, 24 Aug 2025 12:30:00 GMT",
+        "pickupDates": [
+          "2025-08-24"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 07:30:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "PowerOnly",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 42000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "SHOW EQUIPMENT",
+        "id": "fc0491f3-b64e-4ecb-8ec1-f17e2fb9be1a",
+        "computedMileage": 381,
+        "status": "Online",
+        "age": 151604,
+        "created": "Wed, 20 Aug 2025 15:06:04 GMT",
+        "lastUpdated": "Wed, 20 Aug 2025 15:06:04 GMT",
+        "lastRefreshed": "Wed, 20 Aug 2025 15:06:04 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "c9719290-9b87-4319-aa19-e2f7f457488a",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 460950,
+            "purpose": 1
+          },
+          "name": "Full Tilt Logistics LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 2
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "96",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "25",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "36",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "PO",
+        "isRefreshedLoad": false,
+        "transCreditRating": 96,
+        "transCreditDaysToPay": 25,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Sun, 24 Aug 2025 22:30:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Mon, 25 Aug 2025 11:30:00 GMT"
+      },
+      {
+        "postReference": "124497792",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.02593,
+            "longitude": -118.20066
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90023",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 37.62923,
+            "longitude": -121.00802
+          },
+          "address": {
+            "city": "Modesto",
+            "state": "CA",
+            "zipCode": "95351",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Wed, 03 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-03"
+        ],
+        "deliveryDateTime": "Thu, 04 Sep 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 30000,
+        "numberOfStops": 1,
+        "teamDriving": false,
+        "commodity": "frozen contains pork",
+        "id": "b29e73d0-7ab0-4f67-94a6-2dbf1d4afb4e",
+        "computedMileage": 318,
+        "status": "Online",
+        "age": 9675,
+        "created": "Thu, 21 Aug 2025 15:49:33 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 06:31:33 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 06:31:33 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "ec09f2dc-82c0-4dc6-b6a5-50797d0c2d09",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 546755,
+            "purpose": 1
+          },
+          "name": "Fortune Logistics, LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 1,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 4
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "25",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "34",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 25,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Wed, 03 Sep 2025 12:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Fri, 05 Sep 2025 03:59:00 GMT",
+        "routeToll": 0,
+        "driveTime": 21360
+      },
+      {
+        "postReference": "0159421",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.02593,
+            "longitude": -118.20066
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90023",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.08161,
+            "longitude": -117.27521
+          },
+          "address": {
+            "city": "San Bernardino",
+            "state": "CA",
+            "zipCode": "92408",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Wed, 10 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-10"
+        ],
+        "deliveryDateTime": "Thu, 11 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 29126,
+        "rate": {
+          "amount": 500,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "Frozen Fish",
+        "id": "2d511370-85ef-4f9c-8a78-a3be7f219ec3",
+        "computedMileage": 60,
+        "status": "Online",
+        "age": 216753,
+        "created": "Mon, 18 Aug 2025 13:33:36 GMT",
+        "lastUpdated": "Tue, 19 Aug 2025 21:00:15 GMT",
+        "lastRefreshed": "Tue, 19 Aug 2025 21:00:15 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "c8bf28af-32a0-428e-8d93-04203caa13c8",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 449663,
+            "purpose": 1
+          },
+          "name": "Logistics Group International Inc"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 4,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 4
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "C",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "39",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "pricePerMile": 8.3333,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "integrations": [
+          "McLeod"
+        ],
+        "pickupDateTimesUtc": [
+          "Wed, 10 Sep 2025 23:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Thu, 11 Sep 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 4080
+      },
+      {
+        "postReference": "0159168",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.02593,
+            "longitude": -118.20066
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90023",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.08161,
+            "longitude": -117.27521
+          },
+          "address": {
+            "city": "San Bernardino",
+            "state": "CA",
+            "zipCode": "92408",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Thu, 11 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-11"
+        ],
+        "deliveryDateTime": "Fri, 12 Sep 2025 06:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 29623,
+        "rate": {
+          "amount": 500,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "Frozen Fish",
+        "id": "ab25689f-2c61-44bd-9932-b14b6a2f1949",
+        "computedMileage": 60,
+        "status": "Online",
+        "age": 262529,
+        "created": "Thu, 14 Aug 2025 15:13:53 GMT",
+        "lastUpdated": "Tue, 19 Aug 2025 08:17:19 GMT",
+        "lastRefreshed": "Tue, 19 Aug 2025 08:17:19 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "c8bf28af-32a0-428e-8d93-04203caa13c8",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 449663,
+            "purpose": 1
+          },
+          "name": "Logistics Group International Inc"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 2,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 4
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "C",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "39",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "pricePerMile": 8.3333,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "integrations": [
+          "McLeod"
+        ],
+        "pickupDateTimesUtc": [
+          "Thu, 11 Sep 2025 20:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Fri, 12 Sep 2025 10:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 4080
+      },
+      {
+        "postReference": "0158777",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.02593,
+            "longitude": -118.20066
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90023",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 34.08161,
+            "longitude": -117.27521
+          },
+          "address": {
+            "city": "San Bernardino",
+            "state": "CA",
+            "zipCode": "92408",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Tue, 16 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-16"
+        ],
+        "deliveryDateTime": "Wed, 17 Sep 2025 01:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 33056,
+        "rate": {
+          "amount": 500,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "Frozen Fish",
+        "id": "e208be0f-f954-44c0-935e-79c63f046d84",
+        "computedMileage": 60,
+        "status": "Online",
+        "age": 262529,
+        "created": "Tue, 19 Aug 2025 08:17:19 GMT",
+        "lastUpdated": "Tue, 19 Aug 2025 08:17:19 GMT",
+        "lastRefreshed": "Tue, 19 Aug 2025 08:17:19 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "c8bf28af-32a0-428e-8d93-04203caa13c8",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 449663,
+            "purpose": 1
+          },
+          "name": "Logistics Group International Inc"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 4
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "C",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "39",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "pricePerMile": 8.3333,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "integrations": [
+          "McLeod"
+        ],
+        "pickupDateTimesUtc": [
+          "Tue, 16 Sep 2025 23:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Wed, 17 Sep 2025 05:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 4080
+      },
+      {
+        "postReference": "0153166-104205",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.02593,
+            "longitude": -118.20066
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90023",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 36.22437,
+            "longitude": -115.17164
+          },
+          "address": {
+            "city": "North Las Vegas",
+            "state": "NV",
+            "zipCode": "89032",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Wed, 27 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-27"
+        ],
+        "deliveryDateTime": "Thu, 28 Aug 2025 08:30:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 26268,
+        "numberOfStops": 1,
+        "teamDriving": false,
+        "commodity": "Frozen",
+        "id": "504b957a-cf8b-4a1d-b668-d7668e4e3e08",
+        "computedMileage": 286,
+        "status": "Online",
+        "age": 25605,
+        "created": "Fri, 22 Aug 2025 02:06:03 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 02:06:03 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 02:06:03 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "35d7e672-25f4-476c-baa0-306d55cdf417",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 578866,
+            "purpose": 1
+          },
+          "name": "Olympia Transportation Services, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 4
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "28",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "35",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 28,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Wed, 27 Aug 2025 15:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Thu, 28 Aug 2025 12:30:00 GMT",
+        "routeToll": 0,
+        "driveTime": 20340
+      },
+      {
+        "postReference": "3527835-1681652",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.02593,
+            "longitude": -118.20066
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90023",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 41.2198,
+            "longitude": -112.01642
+          },
+          "address": {
+            "city": "Ogden",
+            "state": "UT",
+            "zipCode": "84401",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Wed, 27 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-27"
+        ],
+        "deliveryDateTime": "Fri, 29 Aug 2025 09:30:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 42000,
+        "rate": {
+          "amount": 2000,
+          "type": "Flat"
+        },
+        "numberOfStops": 1,
+        "teamDriving": false,
+        "commodity": "FROZEN - Set Temp Per BOL",
+        "id": "af5e0192-24b7-4553-94ae-d824bef2b1f9",
+        "computedMileage": 738,
+        "status": "Online",
+        "age": 9464,
+        "created": "Thu, 21 Aug 2025 10:15:33 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 06:35:04 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 06:35:04 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "97c0bb53-f429-4bb0-af55-4b4225c5e06e",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 546449,
+            "purpose": 1
+          },
+          "name": "GIX Logistics, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 4
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "94",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "31",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "27",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "pricePerMile": 2.71,
+        "transCreditRating": 94,
+        "transCreditDaysToPay": 31,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Thu, 28 Aug 2025 02:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Fri, 29 Aug 2025 13:30:00 GMT",
+        "routeToll": 0,
+        "driveTime": 45000
+      },
+      {
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.00416,
+            "longitude": -118.2299
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 40.41247,
+            "longitude": -104.69847
+          },
+          "address": {
+            "city": "Greeley",
+            "state": "CO",
+            "zipCode": "80631",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 40000,
+        "rate": {
+          "amount": 3500,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "Frozen Fish ",
+        "id": "618f19df-e688-4de1-b61c-fb7d78ab4f42",
+        "computedMileage": 1074,
+        "status": "Online",
+        "age": 18766,
+        "created": "Fri, 15 Aug 2025 14:26:08 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 04:00:02 GMT",
+        "lastRefreshed": "Fri, 15 Aug 2025 14:26:08 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "85c81262-f84b-4a4e-be00-4ee725667b8d",
+          "name": "Cal Ocean Enterprises Inc/dba  Cal Ocean Trucking"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 8,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 4
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "pricePerMile": 3.2588,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT",
+        "routeToll": 0,
+        "driveTime": 66420
+      },
+      {
+        "postReference": "PL3877827",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.00416,
+            "longitude": -118.2299
+          },
+          "address": {
+            "city": "Vernon",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 27.50768,
+            "longitude": -99.5029
+          },
+          "address": {
+            "city": "Laredo",
+            "state": "TX",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Sat, 23 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-23"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 23:59:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 42000,
+        "rate": {
+          "amount": 3800,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": true,
+        "id": "bae632bf-15e9-4412-8789-d5881f7057d8",
+        "computedMileage": 1506,
+        "status": "Online",
+        "age": 147,
+        "created": "Mon, 18 Aug 2025 14:03:24 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 09:10:21 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 09:10:21 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "aeab76df-9e3c-4873-999e-058d55ddcec7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 471231,
+            "purpose": 1
+          },
+          "name": "Logistic Dynamics, LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 1,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 4
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "94",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "34",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "34",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "pricePerMile": 2.5232,
+        "transCreditRating": 94,
+        "transCreditDaysToPay": 34,
+        "pickupDateTimesUtc": [
+          "Sat, 23 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 03:59:00 GMT",
+        "routeToll": 0,
+        "driveTime": 92100
+      },
+      {
+        "postReference": "6349354",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34,
+            "longitude": -118.22
+          },
+          "address": {
+            "city": "Vernon",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 37.66,
+            "longitude": -121.98
+          },
+          "address": {
+            "city": "Hayward",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Tue, 26 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-26"
+        ],
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 41000,
+        "rate": {
+          "amount": 1000,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "4dd6f43e-8ba7-4427-9b69-05e08aeaa7c0",
+        "computedMileage": 364,
+        "status": "Online",
+        "age": 726,
+        "created": "Fri, 22 Aug 2025 09:00:42 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 09:00:42 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 09:00:42 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "e1d5c844-8c1e-4453-a029-9109a7bddec4",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 689995,
+            "purpose": 1
+          },
+          "name": "Direct Connect Logistix Inc"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "98",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "41",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "pricePerMile": 2.7472,
+        "transCreditRating": 98,
+        "transCreditDaysToPay": 30,
+        "pickupDateTimesUtc": [
+          "Tue, 26 Aug 2025 04:00:00 GMT"
+        ],
+        "routeToll": 0,
+        "driveTime": 24120
+      },
+      {
+        "postReference": "6353603",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34,
+            "longitude": -118.22
+          },
+          "address": {
+            "city": "Vernon",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 38.25,
+            "longitude": -85.55
+          },
+          "address": {
+            "city": "Louisville/Jefferson County metro government",
+            "state": "KY",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Mon, 25 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-25"
+        ],
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 40000,
+        "rate": {
+          "amount": 7600,
+          "type": "Flat"
+        },
+        "numberOfStops": 5,
+        "teamDriving": false,
+        "id": "ad04c35a-b0d5-4010-bb53-e2330cd290a8",
+        "computedMileage": 2103,
+        "status": "Online",
+        "age": 726,
+        "created": "Fri, 22 Aug 2025 09:00:42 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 09:00:42 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 09:00:42 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "e1d5c844-8c1e-4453-a029-9109a7bddec4",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 689995,
+            "purpose": 1
+          },
+          "name": "Direct Connect Logistix Inc"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 1,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "98",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "41",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "pricePerMile": 3.6138,
+        "transCreditRating": 98,
+        "transCreditDaysToPay": 30,
+        "pickupDateTimesUtc": [
+          "Mon, 25 Aug 2025 04:00:00 GMT"
+        ]
+      },
+      {
+        "postReference": "2650360",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34,
+            "longitude": -118.22
+          },
+          "address": {
+            "city": "Vernon",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 32.74,
+            "longitude": -96.99
+          },
+          "address": {
+            "city": "Grand Prairie",
+            "state": "TX",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Mon, 25 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-25"
+        ],
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 42222,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "049a15b6-2460-4a81-acb7-8b4a255f6760",
+        "computedMileage": 1401,
+        "status": "Online",
+        "age": 169164,
+        "created": "Wed, 20 Aug 2025 10:13:24 GMT",
+        "lastUpdated": "Wed, 20 Aug 2025 10:13:24 GMT",
+        "lastRefreshed": "Wed, 20 Aug 2025 10:13:24 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "ba6df845-d664-47e3-b615-189fc70954f0",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 765587,
+            "purpose": 1
+          },
+          "name": "Axle Logistics LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "38",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Mon, 25 Aug 2025 04:00:00 GMT"
+        ],
+        "routeToll": 0,
+        "driveTime": 95880
+      },
+      {
+        "postReference": "2651425",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34,
+            "longitude": -118.22
+          },
+          "address": {
+            "city": "Vernon",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 29.76,
+            "longitude": -95.36
+          },
+          "address": {
+            "city": "Houston",
+            "state": "TX",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 42156,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "56aff6a6-09ad-4482-b3cc-7556847ca8f6",
+        "computedMileage": 1523,
+        "status": "Online",
+        "age": 591272,
+        "created": "Fri, 15 Aug 2025 12:58:16 GMT",
+        "lastUpdated": "Fri, 15 Aug 2025 12:58:16 GMT",
+        "lastRefreshed": "Fri, 15 Aug 2025 12:58:16 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "ba6df845-d664-47e3-b615-189fc70954f0",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 765587,
+            "purpose": 1
+          },
+          "name": "Axle Logistics LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 1,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "38",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "routeToll": 0,
+        "driveTime": 94800
+      },
+      {
+        "postReference": "2667402",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34,
+            "longitude": -118.22
+          },
+          "address": {
+            "city": "Vernon",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 29.76,
+            "longitude": -95.36
+          },
+          "address": {
+            "city": "Houston",
+            "state": "TX",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Mon, 08 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-08"
+        ],
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 42224,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "31b2193c-0311-430e-adea-f5e7090e0e18",
+        "computedMileage": 1523,
+        "status": "Online",
+        "age": 261167,
+        "created": "Tue, 19 Aug 2025 08:40:01 GMT",
+        "lastUpdated": "Tue, 19 Aug 2025 08:40:01 GMT",
+        "lastRefreshed": "Tue, 19 Aug 2025 08:50:31 GMT",
+        "isDateRefreshed": true,
+        "poster": {
+          "id": "ba6df845-d664-47e3-b615-189fc70954f0",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 765587,
+            "purpose": 1
+          },
+          "name": "Axle Logistics LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "29",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "38",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 29,
+        "pickupDateTimesUtc": [
+          "Mon, 08 Sep 2025 04:00:00 GMT"
+        ],
+        "routeToll": 0,
+        "driveTime": 94800
+      },
+      {
+        "postReference": "124229297",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 37.59413,
+            "longitude": -122.04701
+          },
+          "address": {
+            "city": "Union City",
+            "state": "CA",
+            "zipCode": "94587",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Tue, 26 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-26"
+        ],
+        "deliveryDateTime": "Wed, 27 Aug 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "87121ca2-f3f6-4a8b-b634-1211925b01bc",
+        "computedMileage": 369,
+        "status": "Online",
+        "age": 669823,
+        "created": "Thu, 14 Aug 2025 15:09:05 GMT",
+        "lastUpdated": "Thu, 14 Aug 2025 15:09:05 GMT",
+        "lastRefreshed": "Thu, 14 Aug 2025 15:09:05 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Tue, 26 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Wed, 27 Aug 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 24780
+      },
+      {
+        "postReference": "124083575",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 39.78506,
+            "longitude": -104.82457
+          },
+          "address": {
+            "city": "Denver",
+            "state": "CO",
+            "zipCode": "80239",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "7854620e-331f-44f4-ac4b-0acf1b00a489",
+        "computedMileage": 1027,
+        "status": "Online",
+        "age": 2381744,
+        "created": "Thu, 24 Jul 2025 14:39:33 GMT",
+        "lastUpdated": "Fri, 25 Jul 2025 19:37:04 GMT",
+        "lastRefreshed": "Fri, 25 Jul 2025 19:37:04 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Mon, 25 Aug 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 63720
+      },
+      {
+        "postReference": "124231360",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 39.78506,
+            "longitude": -104.82457
+          },
+          "address": {
+            "city": "Denver",
+            "state": "CO",
+            "zipCode": "80239",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 29 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-29"
+        ],
+        "deliveryDateTime": "Tue, 02 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "2cc38c57-eaf3-4b96-bc17-fbc739439ddc",
+        "computedMileage": 1027,
+        "status": "Online",
+        "age": 1000514,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Sun, 10 Aug 2025 19:17:34 GMT",
+        "lastRefreshed": "Sun, 10 Aug 2025 19:17:34 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Fri, 29 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 02 Sep 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 63720
+      },
+      {
+        "postReference": "124231405",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 39.78506,
+            "longitude": -104.82457
+          },
+          "address": {
+            "city": "Denver",
+            "state": "CO",
+            "zipCode": "80239",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 05 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-05"
+        ],
+        "deliveryDateTime": "Mon, 08 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "2c50c0d6-7115-4b36-a416-bbdc67a510b0",
+        "computedMileage": 1027,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Fri, 05 Sep 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Mon, 08 Sep 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 63720
+      },
+      {
+        "postReference": "124229641",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 33.74961,
+            "longitude": -84.55155
+          },
+          "address": {
+            "city": "Atlanta",
+            "state": "GA",
+            "zipCode": "30336",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 29 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-29"
+        ],
+        "deliveryDateTime": "Tue, 02 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "0d19e4d3-31aa-4cfc-b49e-9c4722020baf",
+        "computedMileage": 2166,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 1,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Fri, 29 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 02 Sep 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 132720
+      },
+      {
+        "postReference": "124229653",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 33.74961,
+            "longitude": -84.55155
+          },
+          "address": {
+            "city": "Atlanta",
+            "state": "GA",
+            "zipCode": "30336",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Tue, 02 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-02"
+        ],
+        "deliveryDateTime": "Fri, 05 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "966ec5dc-bff5-4b7b-8739-38004db7b351",
+        "computedMileage": 2166,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 1,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Tue, 02 Sep 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Fri, 05 Sep 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 132720
+      },
+      {
+        "postReference": "124229663",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 33.74961,
+            "longitude": -84.55155
+          },
+          "address": {
+            "city": "Atlanta",
+            "state": "GA",
+            "zipCode": "30336",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Thu, 04 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-04"
+        ],
+        "deliveryDateTime": "Mon, 08 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "87e58801-10fe-4926-8b41-618f5a4d50d8",
+        "computedMileage": 2166,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 1,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Thu, 04 Sep 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Mon, 08 Sep 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 132720
+      },
+      {
+        "postReference": "124227583",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 39.96222,
+            "longitude": -74.98278
+          },
+          "address": {
+            "city": "Moorestown",
+            "state": "NJ",
+            "zipCode": "08057",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Mon, 25 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-25"
+        ],
+        "deliveryDateTime": "Thu, 28 Aug 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "Builders hardware",
+        "id": "1033f3ba-a39c-4f63-8a2a-4eb3d21cc87b",
+        "computedMileage": 2729,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 1,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Mon, 25 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Thu, 28 Aug 2025 11:00:00 GMT",
+        "routeToll": 411.4,
+        "driveTime": 169260
+      },
+      {
+        "postReference": "124227814",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 39.96222,
+            "longitude": -74.98278
+          },
+          "address": {
+            "city": "Moorestown",
+            "state": "NJ",
+            "zipCode": "08057",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Thu, 04 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-04"
+        ],
+        "deliveryDateTime": "Mon, 08 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "d0f74073-575d-4a7c-9814-230017c5411b",
+        "computedMileage": 2729,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Thu, 04 Sep 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Mon, 08 Sep 2025 11:00:00 GMT",
+        "routeToll": 411.4,
+        "driveTime": 169260
+      },
+      {
+        "postReference": "124229489",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 40.78946,
+            "longitude": -74.06278
+          },
+          "address": {
+            "city": "Secaucus",
+            "state": "NJ",
+            "zipCode": "07094",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Tue, 26 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-26"
+        ],
+        "deliveryDateTime": "Fri, 29 Aug 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "0b89d21f-9f53-4bc5-bdf9-b30e68b86df9",
+        "computedMileage": 2788,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Tue, 26 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Fri, 29 Aug 2025 11:00:00 GMT",
+        "routeToll": 179.5,
+        "driveTime": 172500
+      },
+      {
+        "postReference": "124229511",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 40.78946,
+            "longitude": -74.06278
+          },
+          "address": {
+            "city": "Secaucus",
+            "state": "NJ",
+            "zipCode": "07094",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Wed, 27 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-27"
+        ],
+        "deliveryDateTime": "Tue, 02 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "6cda6bfb-5a41-4fad-a838-0ba3c3d1090d",
+        "computedMileage": 2788,
+        "status": "Online",
+        "age": 682575,
+        "created": "Thu, 14 Aug 2025 11:36:33 GMT",
+        "lastUpdated": "Thu, 14 Aug 2025 11:36:33 GMT",
+        "lastRefreshed": "Thu, 14 Aug 2025 11:36:33 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Wed, 27 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 02 Sep 2025 11:00:00 GMT",
+        "routeToll": 179.5,
+        "driveTime": 172500
+      },
+      {
+        "postReference": "124229523",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 40.78946,
+            "longitude": -74.06278
+          },
+          "address": {
+            "city": "Secaucus",
+            "state": "NJ",
+            "zipCode": "07094",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 29 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-29"
+        ],
+        "deliveryDateTime": "Tue, 02 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "93d1e7e3-02bd-4b59-8983-e5f9e02eddc6",
+        "computedMileage": 2788,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Fri, 29 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 02 Sep 2025 11:00:00 GMT",
+        "routeToll": 179.5,
+        "driveTime": 172500
+      },
+      {
+        "postReference": "124229551",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 40.78946,
+            "longitude": -74.06278
+          },
+          "address": {
+            "city": "Secaucus",
+            "state": "NJ",
+            "zipCode": "07094",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Tue, 02 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-02"
+        ],
+        "deliveryDateTime": "Fri, 05 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "0e2a4ed6-7594-47b3-96d8-49155e418ba6",
+        "computedMileage": 2788,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Tue, 02 Sep 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Fri, 05 Sep 2025 11:00:00 GMT",
+        "routeToll": 179.5,
+        "driveTime": 172500
+      },
+      {
+        "postReference": "124229556",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 40.78946,
+            "longitude": -74.06278
+          },
+          "address": {
+            "city": "Secaucus",
+            "state": "NJ",
+            "zipCode": "07094",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 05 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-05"
+        ],
+        "deliveryDateTime": "Mon, 08 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "7b1afd18-0099-4d48-bfbd-c89399959987",
+        "computedMileage": 2788,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Fri, 05 Sep 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Mon, 08 Sep 2025 11:00:00 GMT",
+        "routeToll": 179.5,
+        "driveTime": 172500
+      },
+      {
+        "postReference": "124229859",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 47.39273,
+            "longitude": -122.26007
+          },
+          "address": {
+            "city": "Kent",
+            "state": "WA",
+            "zipCode": "98032",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Thu, 28 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-28"
+        ],
+        "deliveryDateTime": "Tue, 02 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "ace0cffb-0a40-4ae5-9698-54e482d75975",
+        "computedMileage": 1129,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Thu, 28 Aug 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 02 Sep 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 73920
+      },
+      {
+        "postReference": "124229879",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 47.39273,
+            "longitude": -122.26007
+          },
+          "address": {
+            "city": "Kent",
+            "state": "WA",
+            "zipCode": "98032",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Wed, 03 Sep 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-09-03"
+        ],
+        "deliveryDateTime": "Fri, 05 Sep 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 40000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "builders hardware",
+        "id": "0c84c1f5-9083-4e93-8a0a-3b21737142df",
+        "computedMileage": 1129,
+        "status": "Online",
+        "age": 1522087,
+        "created": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastUpdated": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "lastRefreshed": "Mon, 04 Aug 2025 18:24:41 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "20b09974-d642-4b08-89bf-3ac102019aa7",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 617333,
+            "purpose": 1
+          },
+          "name": "FreightSaver"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "30",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "42",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 30,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Wed, 03 Sep 2025 04:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Fri, 05 Sep 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 73920
+      },
+      {
+        "postReference": "B212167",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Vernon",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 40.4805,
+            "longitude": -104.90408
+          },
+          "address": {
+            "city": "Windsor",
+            "state": "CO",
+            "zipCode": "80550",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 04:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 30800,
+        "rate": {
+          "amount": 3400,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "GC",
+        "id": "6a7fb3a2-e2d5-4a1f-a27a-eb3f6fc8b28a",
+        "computedMileage": 1072,
+        "status": "Online",
+        "age": 9795,
+        "created": "Thu, 21 Aug 2025 10:23:33 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 06:29:33 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 06:29:33 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "761d1c86-8b41-4cb9-b280-477713761f4e",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 213456,
+            "purpose": 1
+          },
+          "name": "California Freight Sales"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "98",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "27",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "39",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "pricePerMile": 3.1716,
+        "transCreditRating": 98,
+        "transCreditDaysToPay": 27,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 17:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Mon, 25 Aug 2025 08:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 66360
+      },
+      {
+        "postReference": "4276043-455088",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.0023,
+            "longitude": -118.21152
+          },
+          "address": {
+            "city": "Vernon",
+            "state": "CA",
+            "zipCode": "90058",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 40.51108,
+            "longitude": -111.87001
+          },
+          "address": {
+            "city": "Draper",
+            "state": "UT",
+            "zipCode": "84020",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Mon, 25 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-25"
+        ],
+        "deliveryDateTime": "Tue, 26 Aug 2025 07:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "weight": 41959,
+        "rate": {
+          "amount": 1981,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "Beverages",
+        "id": "c95dd156-73f4-4fc1-a25d-3b245046bb46",
+        "computedMileage": 674,
+        "status": "Online",
+        "age": 10425,
+        "created": "Fri, 22 Aug 2025 01:09:32 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 06:19:03 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 06:19:03 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "1a3cfa98-a23d-4fa5-99ea-9fe74d829dcf",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 684404,
+            "purpose": 1
+          },
+          "name": "Visual Pak Logistics, LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "94",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "32",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "39",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "pricePerMile": 2.9391,
+        "transCreditRating": 94,
+        "transCreditDaysToPay": 32,
+        "integrations": [
+          "Parade"
+        ],
+        "pickupDateTimesUtc": [
+          "Mon, 25 Aug 2025 14:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Tue, 26 Aug 2025 11:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 42180
+      },
+      {
+        "postReference": "3527835",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.01,
+            "longitude": -118.19
+          },
+          "address": {
+            "city": "Los Angeles",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 41.2,
+            "longitude": -112
+          },
+          "address": {
+            "city": "Ogden",
+            "state": "UT",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Wed, 27 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-27"
+        ],
+        "equipments": [
+          {
+            "equipmentType": "Reefer",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 42000,
+        "rate": {
+          "amount": 2000,
+          "type": "Flat"
+        },
+        "numberOfStops": 1,
+        "teamDriving": false,
+        "id": "d475e360-c8c4-495d-9152-1d687ee9cbb9",
+        "computedMileage": 723,
+        "status": "Online",
+        "age": 82247,
+        "created": "Thu, 21 Aug 2025 10:22:01 GMT",
+        "lastUpdated": "Thu, 21 Aug 2025 10:22:01 GMT",
+        "lastRefreshed": "Thu, 21 Aug 2025 10:22:03 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "f1918c4f-1009-4931-8caa-ef5ba90b9f2f",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 546449,
+            "purpose": 1
+          },
+          "name": "GIX Logistics, Inc."
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 5
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "94",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "31",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "27",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "R",
+        "isRefreshedLoad": false,
+        "pricePerMile": 2.7662,
+        "transCreditRating": 94,
+        "transCreditDaysToPay": 31,
+        "pickupDateTimesUtc": [
+          "Wed, 27 Aug 2025 04:00:00 GMT"
+        ],
+        "routeToll": 0,
+        "driveTime": 45720
+      },
+      {
+        "postReference": "124414870",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.04847,
+            "longitude": -118.14974
+          },
+          "address": {
+            "city": "MONTEREY PARK",
+            "state": "CA",
+            "zipCode": "91754",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 46.85865,
+            "longitude": -114.03977
+          },
+          "address": {
+            "city": "MISSOULA",
+            "state": "MT",
+            "zipCode": "59801",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 08:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "LTL",
+        "length": 19,
+        "weight": 20982,
+        "rate": {
+          "amount": 2215,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "building materials, building materials",
+        "id": "00d6f1f2-91ef-4e4f-b5bb-c7e5812f081d",
+        "computedMileage": 1206,
+        "status": "Online",
+        "age": 1647,
+        "created": "Fri, 22 Aug 2025 08:45:21 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:45:21 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:45:21 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "5824a053-7c99-4c1a-91fc-d608285899fc",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 888332,
+            "purpose": 1
+          },
+          "name": "Red River Logistics LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 6
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "37",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "pricePerMile": 1.8366,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 14:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Mon, 25 Aug 2025 12:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 80940
+      },
+      {
+        "postReference": "124484961",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.04847,
+            "longitude": -118.14974
+          },
+          "address": {
+            "city": "MONTEREY PARK",
+            "state": "CA",
+            "zipCode": "91754",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 41.2198,
+            "longitude": -112.01642
+          },
+          "address": {
+            "city": "OGDEN",
+            "state": "UT",
+            "zipCode": "84401",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Fri, 22 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-22"
+        ],
+        "deliveryDateTime": "Mon, 25 Aug 2025 08:00:00 GMT",
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 32,
+        "weight": 35640,
+        "rate": {
+          "amount": 2063,
+          "type": "Flat"
+        },
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "commodity": "Roofnado StormTread XW 48\" 250LF",
+        "id": "382bb239-92d1-48b7-8fdb-61c2557979be",
+        "computedMileage": 718,
+        "status": "Online",
+        "age": 1645,
+        "created": "Fri, 22 Aug 2025 08:45:23 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 08:45:23 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 08:45:23 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "5824a053-7c99-4c1a-91fc-d608285899fc",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 888332,
+            "purpose": 1
+          },
+          "name": "Red River Logistics LLC"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 6
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "B",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "37",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "pricePerMile": 2.8732,
+        "pickupDateTimesUtc": [
+          "Fri, 22 Aug 2025 14:00:00 GMT"
+        ],
+        "deliveryDateTimeUtc": "Mon, 25 Aug 2025 12:00:00 GMT",
+        "routeToll": 0,
+        "driveTime": 48840
+      },
+      {
+        "postReference": "9834017",
+        "numberOfLoads": 1,
+        "originLocation": {
+          "geolocation": {
+            "latitude": 34.02399,
+            "longitude": -118.15576
+          },
+          "address": {
+            "city": "Commerce",
+            "state": "CA",
+            "country": "US"
+          }
+        },
+        "destinationLocation": {
+          "geolocation": {
+            "latitude": 43.61387,
+            "longitude": -116.20358
+          },
+          "address": {
+            "city": "Boise",
+            "state": "ID",
+            "country": "US"
+          }
+        },
+        "pickupDateTime": "Mon, 25 Aug 2025 12:00:00 GMT",
+        "pickupDates": [
+          "2025-08-25"
+        ],
+        "equipments": [
+          {
+            "equipmentType": "Van",
+            "equipmentSpecifications": "None"
+          }
+        ],
+        "loadSize": "TL",
+        "length": 53,
+        "weight": 8000,
+        "numberOfStops": 0,
+        "teamDriving": false,
+        "id": "a4496727-843d-4e96-b436-3c081d49cafd",
+        "computedMileage": 868,
+        "status": "Online",
+        "age": 16793,
+        "created": "Fri, 22 Aug 2025 04:32:55 GMT",
+        "lastUpdated": "Fri, 22 Aug 2025 04:32:55 GMT",
+        "lastRefreshed": "Fri, 22 Aug 2025 04:32:55 GMT",
+        "isDateRefreshed": false,
+        "poster": {
+          "id": "e0e6e073-b03d-42d0-9a77-8d2772b9cd3e",
+          "docketNumber": {
+            "prefix": "MC",
+            "number": 186013,
+            "purpose": 1
+          },
+          "name": "Sureway Transportation Company"
+        },
+        "metadata": {
+          "hasPrivateNote": false,
+          "isViewedCounter": 0,
+          "userdata": {
+            "isGone": false,
+            "isViewed": false,
+            "isLowPayRate": false,
+            "isHidden": false,
+            "isCalled": false,
+            "isEmailed": false,
+            "isMessaged": false,
+            "isContacted": false,
+            "isWrongInfo": false,
+            "isNotInterested": false,
+            "isSaved": false,
+            "originDeadhead": {
+              "value": 6
+            },
+            "progress": "LoadAvailable"
+          }
+        },
+        "creditRatings": [
+          {
+            "creditor": "TransCredit, Inc.",
+            "ratingInfo": [
+              {
+                "id": 100,
+                "label": "Credit Score",
+                "value": "97",
+                "type": "String"
+              },
+              {
+                "id": 101,
+                "label": "Days-To-Pay",
+                "value": "26",
+                "type": "String"
+              }
+            ]
+          },
+          {
+            "creditor": "Thunder Funding",
+            "ratingInfo": [
+              {
+                "id": 200,
+                "label": "Credit Score",
+                "value": "A",
+                "type": "String",
+                "maxValue": "4"
+              },
+              {
+                "id": 201,
+                "label": "Days-To-Pay",
+                "value": "12",
+                "type": "String"
+              }
+            ]
+          }
+        ],
+        "sortEquipCode": "V",
+        "isRefreshedLoad": false,
+        "transCreditRating": 97,
+        "transCreditDaysToPay": 26,
+        "pickupDateTimesUtc": [
+          "Mon, 25 Aug 2025 04:00:00 GMT"
+        ],
+        "routeToll": 0,
+        "driveTime": 57900
+      }
+    ],
+    "refreshedLoads": [],
+    "metadata": {
+      "maxModifiedOn": "Fri, 22 Aug 2025 13:12:47 GMT",
+      "sortOrder": [
+        {
+          "field": "OrigRadius",
+          "direction": "Ascending"
+        },
+        {
+          "field": "OrigState",
+          "direction": "Ascending"
+        },
+        {
+          "field": "OrigCity",
+          "direction": "Ascending"
+        },
+        {
+          "field": "DestState",
+          "direction": "Ascending"
+        },
+        {
+          "field": "DestCity",
+          "direction": "Ascending"
+        },
+        {
+          "field": "PickupDate",
+          "direction": "Ascending"
+        },
+        {
+          "field": "Equipment",
+          "direction": "Ascending"
+        },
+        {
+          "field": "LoadId",
+          "direction": "Ascending"
+        }
+      ],
+      "nextToken": "or=0.007522&os=CA&oc=Commerce&ds=ID&dc=Boise&pud=Monday,%20August%2025,%202025%2012:00:00.000%20AM&e=V&id=a4496727-843d-4e96-b436-3c081d49cafd&mmo=Friday,%20August%2022,%202025%209:12:47.740%20AM&sid=38452060",
+      "isLastResult": false,
+      "resultExpiration": "Fri, 22 Aug 2025 19:12:47 GMT",
+      "totalResultCount": 735,
+      "queryTime": 1328,
+      "pageResultCount": 50,
+      "currentOffset": 0,
+      "referenceTime": "Fri, 22 Aug 2025 13:12:49 GMT"
+    }
+  }
+}

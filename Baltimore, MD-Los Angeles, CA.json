@@ -1,0 +1,24 @@
+{
+  "url": "https://members.123loadboard.com/api/ratechecks",
+  "status": 200,
+  "data": {
+    "success": true,
+    "requestTime": "Sat, 23 Aug 2025 08:27:55 GMT",
+    "rateMileage": 2653.6,
+    "averageRateForMileage": 5039.89255029385,
+    "minRateForMileage": 5039.89255029385,
+    "maxRateForMileage": 5039.89255029385,
+    "avgRatePerMile": 1.8992661103006672,
+    "ratePerMileMin": 1.8992661103006672,
+    "ratePerMileMax": 1.8992661103006672,
+    "ratePerMileStdDev": 0,
+    "loadsIncluded": 0,
+    "finalLevel": "NationalAverage",
+    "totalMileage": 2653.6,
+    "tollCosts": 74.6,
+    "fuelCost": 1400.2688275714286,
+    "mpg": 7,
+    "linehaulRevenue": 5039.89255029385,
+    "rateIncludesFuelSurcharge": true
+  }
+}
