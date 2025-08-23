@@ -6,24 +6,14 @@
   "type": "module",
   "scripts": {
     "start": "node main.js",
-    "vercel-build": "npm install && npm run build",
-    "build": "echo 'Build complete'"
+    "dev": "node main.js",
+    "vercel-build": "npm install"
   },
   "dependencies": {
-    "@sparticuz/chromium": "^116.0.0",
     "express": "^5.1.0",
-    "puppeteer-core": "^21.0.0"
+    "puppeteer": "^21.0.0"
   },
   "engines": {
     "node": ">=16.0.0"
-  },
-  "devDependencies": {
-    "@vercel/node": "^4.1.8"
-  },
-  "pkg": {
-    "scripts": [
-      "node_modules/@sparticuz/chromium/**/*",
-      "node_modules/puppeteer-core/**/*"
-    ]
   }
 }

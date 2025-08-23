@@ -1,46 +1,25 @@
-import puppeteer from 'puppeteer-core';
-import chromium from '@sparticuz/chromium';
+import puppeteer from 'puppeteer';
+
+// Browserless.io configuration
+const BROWSERLESS_API_KEY = process.env.BROWSERLESS_API_KEY || '';
+const BROWSERLESS_ENDPOINT = `wss://chrome.browserless.io?token=${BROWSERLESS_API_KEY}`;
 import fs from 'fs';
 let hasSavedResponse = false;
 
 async function run(location) {
   // Launch the browser
-  // Configure launch options for serverless environment
-  const launchOptions = {
-    args: [
-      ...chromium.args,
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-accelerated-2d-canvas',
-      '--no-first-run',
-      '--no-zygote',
-      '--single-process',
-      '--disable-gpu',
-      '--disable-software-rasterizer',
-      '--disable-features=IsolateOrigins,site-per-process',
-      '--disable-web-security',
-      '--disable-site-isolation-trials'
-    ],
+  // Use Browserless.io for serverless environments
+  const browser = await puppeteer.connect({
+    browserWSEndpoint: BROWSERLESS_ENDPOINT,
     defaultViewport: {
       width: 1920,
       height: 1080,
       deviceScaleFactor: 1,
     },
-    executablePath: process.env.IS_LOCAL 
-      ? '/usr/bin/google-chrome-stable' 
-      : await chromium.executablePath(),
-    headless: chromium.headless,
-    ignoreHTTPSErrors: true,
-  };
-
-  console.log('Launching browser with options:', {
-    ...launchOptions,
-    executablePath: '***'
   });
- 
-  const browser = await puppeteer.launch(launchOptions);
   
+  console.log('Connected to Browserless.io');
+ 
   try {
     // Open a new page
     const page = await browser.newPage();
