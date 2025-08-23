@@ -1,5 +1,5 @@
-const puppeteer = require('puppeteer');
-const fs = require('fs');
+import puppeteer from 'puppeteer';
+import fs from 'fs';
 let hasSavedResponse = false;
 
 async function run() {
@@ -144,4 +144,6 @@ async function login(page) {
   }
 }
 
-run();
+// run();
+
+export default run;

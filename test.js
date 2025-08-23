@@ -1,31 +1,15 @@
-const puppeteer = require('puppeteer');
-const fs = require('fs');
+import puppeteer from 'puppeteer';
+import fs from 'fs';
 let hasSavedResponse = false;
 
-async function run() {
+async function run(location) {
   // Launch the browser
-//   For windows
-//   const browser = await puppeteer.launch({
-//     headless: false,
-//     defaultViewport: null,
-//     args: ['--start-maximized']
-//   });
-// For Linux
-const browser = await puppeteer.launch({
-    headless: "new",
+  const browser = await puppeteer.launch({
+    headless: true,
     defaultViewport: null,
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-accelerated-2d-canvas',
-      '--no-first-run',
-      '--no-zygote',
-      '--single-process',
-      '--disable-gpu'
-    ],
-    executablePath: process.env.CHROME_BIN || undefined
+    args: ['--start-maximized']
   });
+  
   try {
     // Open a new page
     const page = await browser.newPage();
@@ -41,30 +25,7 @@ const browser = await puppeteer.launch({
       request.continue();
     });
 
-    // Setup response handler
-    // page.on('response', async (response) => {
-    //   const url = response.url();
-    //   if (url.includes('/api/loads/named-searches/') && url.endsWith('/search')) {
-    //     try {
-    //       const json = await response.json();
-    //       const responseData = {
-    //         url: url,
-    //         status: response.status(),
-    //         data: json
-    //       };
-    //       apiResponses.push(responseData);
-    //       console.log('✅ Captured API Response');
-          
-    //       // Save the response
-    //       fs.writeFileSync('loads.json', JSON.stringify(responseData, null, 2));
-    //       console.log('💾 Saved to loads.json');
-          
-    //     } catch (e) {
-    //       console.error('❌ Error parsing JSON:', e);
-    //     }
-    //   }
-    // });
-    // At the top of your file, add this flag
+    
 let hasSavedResponse = false;
 
 // Then modify the response handler like this:
@@ -83,10 +44,12 @@ page.on('response', async (response) => {
             
             // Save the response only if we haven't already
             if (!hasSavedResponse) {
-                fs.writeFileSync('loads.json', JSON.stringify(responseData, null, 2));
-                console.log('💾 Saved to loads.json');
+                fs.writeFileSync(location+'.json', JSON.stringify(responseData, null, 2));
+                console.log('💾 Saved to '+location+'.json');
                 hasSavedResponse = true; // Set flag to true after saving
+
                 await browser.close();
+                return location+'.json';
             }
             
         } catch (e) {
@@ -112,11 +75,13 @@ page.on('response', async (response) => {
     
     // Perform search
     console.log('🔎 Performing search...');
+    console.log('🔎 '+location);
+
     await page.waitForSelector('#create_new_search_btn', { visible: true, timeout: 10000 });
     await page.click('#create_new_search_btn');
     
     await page.waitForSelector('#pickup_picker', { visible: true, timeout: 10000 });
-    await page.type('#pickup_picker', "Baltimore, MD");
+    await page.type('#pickup_picker', location);
     
     await page.waitForSelector('#see_exact_loads', { visible: true, timeout: 10000 });
     await page.click('#see_exact_loads');
@@ -129,8 +94,10 @@ page.on('response', async (response) => {
       console.log('⚠️ No API responses captured. The page might need more time to load or the selectors might have changed.');
     }
 
+    return location+'.json';
   } catch (error) {
     console.error('❌ An error occurred:', error);
+    return error;
   } finally {
     // Keep the browser open for inspection
     console.log('🏁 Script finished. Press Ctrl+C to exit.');
@@ -160,4 +127,6 @@ async function login(page) {
   }
 }
 
-run();
+// run();
+
+export default run;
