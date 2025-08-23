@@ -5,13 +5,41 @@ let hasSavedResponse = false;
 
 async function run(location) {
   // Launch the browser
-  const browser = await puppeteer.launch({
-    args: chromium.args,
-    defaultViewport: chromium.defaultViewport,
-    executablePath: await chromium.executablePath(),
+  // Configure launch options for serverless environment
+  const launchOptions = {
+    args: [
+      ...chromium.args,
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-accelerated-2d-canvas',
+      '--no-first-run',
+      '--no-zygote',
+      '--single-process',
+      '--disable-gpu',
+      '--disable-software-rasterizer',
+      '--disable-features=IsolateOrigins,site-per-process',
+      '--disable-web-security',
+      '--disable-site-isolation-trials'
+    ],
+    defaultViewport: {
+      width: 1920,
+      height: 1080,
+      deviceScaleFactor: 1,
+    },
+    executablePath: process.env.IS_LOCAL 
+      ? '/usr/bin/google-chrome-stable' 
+      : await chromium.executablePath(),
     headless: chromium.headless,
     ignoreHTTPSErrors: true,
+  };
+
+  console.log('Launching browser with options:', {
+    ...launchOptions,
+    executablePath: '***'
   });
+
+  const browser = await puppeteer.launch(launchOptions);
   
   try {
     // Open a new page
