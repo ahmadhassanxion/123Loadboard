@@ -38,7 +38,7 @@ async function run(location) {
     ...launchOptions,
     executablePath: '***'
   });
-
+ 
   const browser = await puppeteer.launch(launchOptions);
   
   try {
