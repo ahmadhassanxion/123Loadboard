@@ -1,23 +1,16 @@
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-core';
+import chromium from '@sparticuz/chromium';
 import fs from 'fs';
 let hasSavedResponse = false;
 
 async function run(location) {
   // Launch the browser
   const browser = await puppeteer.launch({
-    headless: true,
-    defaultViewport: null,
-    args: [
-      '--no-sandbox',
-      '--disable-setuid-sandbox',
-      '--disable-dev-shm-usage',
-      '--disable-accelerated-2d-canvas',
-      '--no-first-run',
-      '--no-zygote',
-      '--single-process',
-      '--disable-gpu'
-    ],
-    executablePath: process.env.CHROME_BIN || undefined
+    args: chromium.args,
+    defaultViewport: chromium.defaultViewport,
+    executablePath: await chromium.executablePath(),
+    headless: chromium.headless,
+    ignoreHTTPSErrors: true,
   });
   
   try {
@@ -107,12 +100,17 @@ page.on('response', async (response) => {
     return location+'.json';
   } catch (error) {
     console.error('❌ An error occurred:', error);
-    return error;
+    throw error; // Re-throw to be caught by the route handler
   } finally {
-    // Keep the browser open for inspection
-    console.log('🏁 Script finished. Press Ctrl+C to exit.');
-    // Uncomment the line below to close the browser automatically
-    // await browser.close();
+    try {
+      // Ensure browser is closed in all cases
+      if (browser && browser.process() != null) {
+        await browser.close();
+      }
+    } catch (e) {
+      console.error('Error while closing browser:', e);
+    }
+    console.log('🏁 Script finished.');
   }
 }
 

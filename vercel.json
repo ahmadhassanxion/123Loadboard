@@ -14,17 +14,7 @@
   ],
   "build": {
     "env": {
-      "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true"
+      "NODE_ENV": "production"
     }
-  },
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "builds": [
-    {
-      "src": "main.js",
-      "use": "@vercel/node",
-      "config": { "includeFiles": ["**/*.json"] }
-    }
-  ]
+  }
 }
