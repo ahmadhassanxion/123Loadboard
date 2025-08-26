@@ -1,10 +1,16 @@
 import express from "express";
 import fs from "fs";
 import run from "./testNew.js";
+import main from "./simple-test.js";
 const app = express();
 
 app.get("/", (req, res) => {
     res.send("Hello World!");
+});
+
+app.get("/test", async(req, res) => {
+    let results = await main();
+    res.send(results);
 });
 app.get("/xeno/:location", async (req, res) => {
     try {

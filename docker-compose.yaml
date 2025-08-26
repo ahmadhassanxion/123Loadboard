@@ -7,39 +7,40 @@ services:
     container_name: puppeteer-scraper
     restart: unless-stopped
     
-    # Resource limits - crucial for preventing the fork error
+    # Very restrictive resource limits to prevent fork errors
     deploy:
       resources:
         limits:
-          memory: 1G
-          cpus: '0.5'
+          memory: 768M        # Reduced from 1G
+          cpus: '0.3'         # Reduced from 0.5
         reservations:
-          memory: 512M
-          cpus: '0.25'
+          memory: 384M        # Reduced from 512M
+          cpus: '0.15'        # Reduced from 0.25
     
-    # Memory and process limits
-    mem_limit: 1g
-    memswap_limit: 1g
-    mem_swappiness: 0
-    oom_kill_disable: false
+    # Memory limits (critical for preventing resource errors)
+    mem_limit: 768m           # Hard limit
+    memswap_limit: 768m       # No swap
+    mem_swappiness: 0         # Disable swap
+    oom_kill_disable: false   # Allow OOM killer
+    
+    # Very restrictive process limits (key to fixing fork error)
+    ulimits:
+      nproc: 256              # Reduced from 512 (max processes)
+      nofile: 1024            # File descriptors
+      memlock: 33554432       # 32MB memory lock
+      core: 0                 # No core dumps
+    
+    # Shared memory size (important for Chrome, but reduced)
+    shm_size: 128m            # Reduced from 256m
     
     # Security options
     security_opt:
       - no-new-privileges:true
     
-    # Process limits
-    ulimits:
-      nproc: 512      # Maximum number of processes
-      nofile: 1024    # Maximum number of file descriptors
-      memlock: 67108864 # Memory lock limit
-    
-    # Shared memory size (important for Chrome)
-    shm_size: 256m
-    
     # Environment variables
     environment:
       - NODE_ENV=production
-      - NODE_OPTIONS=--max-old-space-size=512
+      - NODE_OPTIONS=--max-old-space-size=384  # Reduced
       - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
       - PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable
       - LOGIN_EMAIL=${LOGIN_EMAIL}
@@ -57,7 +58,30 @@ services:
     # Health check
     healthcheck:
       test: ["CMD", "node", "healthcheck.js"]
-      interval: 30s
+      interval: 45s
       timeout: 10s
-      retries: 3
-      start_period: 10s
+      retries: 2
+      start_period: 15s
+
+  # Optional: Add a system monitor for debugging
+  monitor:
+    image: node:18-slim
+    container_name: system-monitor
+    command: >
+      bash -c "
+        while true; do
+          echo '=== System Resources $(date) ==='
+          echo 'Memory:'
+          cat /proc/meminfo | grep -E 'MemTotal|MemAvailable|MemFree'
+          echo 'Processes:'
+          ps aux | wc -l
+          echo 'Chrome processes:'
+          ps aux | grep -i chrome | grep -v grep | wc -l || echo '0'
+          echo '=================================='
+          sleep 30
+        done
+      "
+    volumes:
+      - /proc:/host/proc:ro
+    restart: unless-stopped
+    profiles: ["debug"]  # Only start with --profile debug

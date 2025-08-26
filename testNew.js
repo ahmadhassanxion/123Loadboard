@@ -15,47 +15,51 @@ const RESOURCE_CONFIG = {
   retryDelay: 2000
 };
 
-// Memory optimization flags
+// Minimal Chrome args for Docker/resource-constrained environments
 const CHROME_ARGS = [
+  // Essential security and sandbox flags
   '--no-sandbox',
   '--disable-setuid-sandbox',
   '--disable-dev-shm-usage',
-  '--disable-accelerated-2d-canvas',
-  '--no-first-run',
-  '--no-zygote',
+  
+  // Memory and performance optimization
   '--disable-gpu',
+  '--disable-gpu-sandbox',
+  '--disable-software-rasterizer',
   '--disable-background-timer-throttling',
   '--disable-backgrounding-occluded-windows',
   '--disable-renderer-backgrounding',
-  '--disable-features=TranslateUI,VizDisplayCompositor',
+  '--disable-features=TranslateUI,VizDisplayCompositor,AudioServiceOutOfProcess',
   '--disable-ipc-flooding-protection',
   '--disable-web-security',
   '--disable-features=site-per-process',
-  '--disable-hang-monitor',
-  '--disable-popup-blocking',
-  '--disable-prompt-on-repost',
-  '--disable-sync',
-  '--disable-translate',
+  
+  // Resource reduction
+  '--no-zygote',
+  '--no-first-run',
   '--disable-extensions',
   '--disable-plugins',
-  '--disable-preconnect',
-  '--disable-component-extensions-with-background-pages',
-  '--memory-pressure-off',
-  '--max_old_space_size=512',
-  '--disable-background-networking',
-  '--disable-background-timer-throttling',
-  '--disable-renderer-backgrounding',
-  '--disable-backgrounding-occluded-windows',
-  '--disable-client-side-phishing-detection',
+  '--disable-sync',
+  '--disable-translate',
   '--disable-default-apps',
+  '--disable-component-updates',
+  '--disable-client-side-phishing-detection',
+  '--disable-component-extensions-with-background-pages',
+  '--disable-background-networking',
   '--disable-hang-monitor',
   '--disable-prompt-on-repost',
-  '--disable-sync',
   '--disable-web-resources',
   '--no-default-browser-check',
-  '--no-first-run',
-  '--single-process', // Use single process to reduce memory usage
-  '--window-size=1280,720'
+  
+  // Process and memory limits
+  '--memory-pressure-off',
+  '--max-memory-per-process=256000000', // 256MB per process
+  '--renderer-process-limit=1',
+  '--max-old-space-size=256',
+  
+  // Display settings
+  '--window-size=1024,768',
+  '--virtual-time-budget=10000'
 ];
 
 class ScraperError extends Error {
@@ -67,36 +71,111 @@ class ScraperError extends Error {
 }
 
 async function createBrowser() {
-  const launchOptions = {
-    headless: 'new',
-    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/google-chrome-stable',
-    args: CHROME_ARGS,
-    defaultViewport: { width: 1280, height: 720 },
-    ignoreHTTPSErrors: true,
-    timeout: 30000,
-  };
-
-  let browser = null;
-  let retries = 0;
-
-  while (retries < RESOURCE_CONFIG.maxRetries) {
-    try {
-      console.log(`🚀 Launching browser (attempt ${retries + 1}/${RESOURCE_CONFIG.maxRetries})`);
-      browser = await puppeteer.launch(launchOptions);
-      console.log('✅ Browser launched successfully');
-      return browser;
-    } catch (error) {
-      retries++;
-      console.error(`❌ Browser launch failed (attempt ${retries}):`, error.message);
-      
-      if (retries >= RESOURCE_CONFIG.maxRetries) {
-        throw new ScraperError(`Failed to launch browser after ${RESOURCE_CONFIG.maxRetries} attempts`, 'BROWSER_LAUNCH_FAILED');
+  // Try multiple browser launch strategies
+  const strategies = [
+    // Strategy 1: Minimal resource usage
+    {
+      name: 'minimal',
+      options: {
+        headless: 'new',
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/google-chrome-stable',
+        args: CHROME_ARGS,
+        defaultViewport: { width: 1024, height: 768 },
+        ignoreHTTPSErrors: true,
+        timeout: 20000,
+        protocolTimeout: 30000,
+        dumpio: false
       }
-      
-      console.log(`⏳ Waiting ${RESOURCE_CONFIG.retryDelay}ms before retry...`);
-      await new Promise(resolve => setTimeout(resolve, RESOURCE_CONFIG.retryDelay));
+    },
+    // Strategy 2: Old headless mode (fallback)
+    {
+      name: 'old-headless',
+      options: {
+        headless: true,
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/google-chrome-stable',
+        args: [...CHROME_ARGS, '--headless'],
+        defaultViewport: { width: 1024, height: 768 },
+        ignoreHTTPSErrors: true,
+        timeout: 15000,
+        dumpio: false
+      }
+    },
+    // Strategy 3: Ultra-minimal (last resort)
+    {
+      name: 'ultra-minimal',
+      options: {
+        headless: true,
+        executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/google-chrome-stable',
+        args: [
+          '--no-sandbox',
+          '--disable-setuid-sandbox', 
+          '--disable-dev-shm-usage',
+          '--disable-gpu',
+          '--no-zygote',
+          '--single-process',
+          '--no-first-run'
+        ],
+        defaultViewport: null,
+        ignoreHTTPSErrors: true,
+        timeout: 10000,
+        dumpio: false
+      }
+    }
+  ];
+
+  for (const strategy of strategies) {
+    let retries = 0;
+    
+    while (retries < RESOURCE_CONFIG.maxRetries) {
+      try {
+        console.log(`🚀 Trying ${strategy.name} launch strategy (attempt ${retries + 1}/${RESOURCE_CONFIG.maxRetries})`);
+        
+        // Add slight delay to allow system resources to recover
+        if (retries > 0) {
+          console.log(`⏳ Waiting ${RESOURCE_CONFIG.retryDelay}ms for system recovery...`);
+          await new Promise(resolve => setTimeout(resolve, RESOURCE_CONFIG.retryDelay));
+        }
+        
+        const browser = await puppeteer.launch(strategy.options);
+        console.log(`✅ Browser launched successfully using ${strategy.name} strategy`);
+        
+        // Quick test to ensure browser is actually working
+        try {
+          const pages = await browser.pages();
+          if (pages.length > 0) {
+            await pages[0].evaluate(() => 1 + 1); // Simple test
+          }
+          console.log('✅ Browser validation passed');
+          return browser;
+        } catch (testError) {
+          console.error('❌ Browser validation failed:', testError.message);
+          await browser.close().catch(() => {});
+          throw testError;
+        }
+        
+      } catch (error) {
+        retries++;
+        console.error(`❌ ${strategy.name} launch failed (attempt ${retries}):`, error.message);
+        
+        // Force cleanup any stuck processes
+        if (process.platform === 'linux') {
+          try {
+            const { exec } = await import('child_process');
+            exec('pkill -f chrome', () => {}); // Best effort cleanup
+          } catch (cleanupError) {
+            // Ignore cleanup errors
+          }
+        }
+        
+        if (retries >= RESOURCE_CONFIG.maxRetries) {
+          console.error(`❌ ${strategy.name} strategy exhausted all retries`);
+          break; // Try next strategy
+        }
+      }
     }
   }
+  
+  throw new ScraperError('All browser launch strategies failed', 'BROWSER_LAUNCH_FAILED');
 }
 
 async function ensureDataDirectory() {
