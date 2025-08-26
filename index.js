@@ -100,7 +100,9 @@ page.on('response', async (response) => {
     await page.click('#create_new_search_btn');
     
     await page.waitForSelector('#pickup_picker', { visible: true, timeout: 10000 });
-    await page.type('#pickup_picker', "Baltimore, MD");
+    await page.type('#pickup_picker', "Los Angeles, CA");
+    await page.waitForSelector('#lc_picker-item-0', { visible: true, timeout: 10000 });
+    await page.click('#lc_picker-item-0');
     
     await page.waitForSelector('#see_exact_loads', { visible: true, timeout: 10000 });
     await page.click('#see_exact_loads');
@@ -144,6 +146,6 @@ async function login(page) {
   }
 }
 
-// run();
+run();
 
-export default run;
+// export default run;

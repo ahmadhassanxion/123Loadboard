@@ -1,6 +1,6 @@
 import express from "express";
 import fs from "fs";
-import run from "./test.js";
+import run from "./testNew.js";
 const app = express();
 
 app.get("/", (req, res) => {
@@ -9,37 +9,29 @@ app.get("/", (req, res) => {
 app.get("/xeno/:location", async (req, res) => {
     try {
         console.log(`Starting search for location: ${req.params.location}`);
-        const filename = await run(req.params.location);
+        const result = await run(req.params.location);
         
-        // Read the file and send its contents
-        fs.readFile(filename, 'utf8', (err, data) => {
-            if (err) {
-                console.error('Error reading file:', err);
-                return res.status(500).send({ 
-                    success: false, 
-                    error: 'Error reading the result file',
-                    details: err.message 
-                });
-            }
-            try {
-                const jsonData = JSON.parse(data);
-                res.send({ 
-                    success: true, 
-                    filename: filename,
-                    data: jsonData 
-                });
-            } catch (parseError) {
-                console.error('Error parsing JSON:', parseError);
-                res.status(500).send({ 
-                    success: false, 
-                    error: 'Error parsing the result file',
-                    details: parseError.message 
-                });
-            }
+        // if (!result) {
+        //     return res.status(404).json({
+        //         success: false,
+        //         message: 'No data was captured for the specified location',
+        //         data: result
+        //     });
+        // }
+
+        console.log(`Search completed for location: ${req.params.location}`);
+        console.log(`Filename: ${req.params.location}.json`);
+        
+        // Send the response with the file data
+        res.json({
+            success: true,
+            filename: `${req.params.location}.json`,
+            // data: resul
         });
+       
     } catch (error) {
         console.error('Error in /xeno/:location:', error);
-        res.status(500).send({ 
+        res.status(500).json({ 
             success: false, 
             error: error.message || 'An unknown error occurred',
             stack: process.env.NODE_ENV === 'production' ? undefined : error.stack
