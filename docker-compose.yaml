@@ -1,24 +1,63 @@
+# docker-compose.yml
 version: '3.8'
 
 services:
-  loadboard-scraper:
+  scraper:
     build: .
-    ports:
-      - "9000:9000"
-    environment:
-      - NODE_ENV=production
-    volumes:
-      - ./data:/app/data
-      - ./logs:/app/logs
+    container_name: puppeteer-scraper
     restart: unless-stopped
-    mem_limit: 1g
-    mem_reservation: 512m
-    shm_size: 512m
-    security_opt:
-      - seccomp:unconfined
+    
+    # Resource limits - crucial for preventing the fork error
     deploy:
       resources:
         limits:
           memory: 1G
+          cpus: '0.5'
         reservations:
           memory: 512M
+          cpus: '0.25'
+    
+    # Memory and process limits
+    mem_limit: 1g
+    memswap_limit: 1g
+    mem_swappiness: 0
+    oom_kill_disable: false
+    
+    # Security options
+    security_opt:
+      - no-new-privileges:true
+    
+    # Process limits
+    ulimits:
+      nproc: 512      # Maximum number of processes
+      nofile: 1024    # Maximum number of file descriptors
+      memlock: 67108864 # Memory lock limit
+    
+    # Shared memory size (important for Chrome)
+    shm_size: 256m
+    
+    # Environment variables
+    environment:
+      - NODE_ENV=production
+      - NODE_OPTIONS=--max-old-space-size=512
+      - PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
+      - PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable
+      - LOGIN_EMAIL=${LOGIN_EMAIL}
+      - LOGIN_PASSWORD=${LOGIN_PASSWORD}
+    
+    # Port mapping
+    ports:
+      - "9000:9000"
+    
+    # Volume for data persistence
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    
+    # Health check
+    healthcheck:
+      test: ["CMD", "node", "healthcheck.js"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s

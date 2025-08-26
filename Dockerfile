@@ -1,31 +1,38 @@
+# Use a lighter base image with Node 18
 FROM node:18-slim
 
-# Install Chrome dependencies and tools
+# Set environment variables early
+ENV NODE_ENV=production \
+    PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
+    PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable \
+    DEBIAN_FRONTEND=noninteractive \
+    NODE_OPTIONS="--max-old-space-size=512" \
+    CHROME_PATH=/usr/bin/google-chrome-stable
+
+# Install system dependencies in a single layer
 RUN apt-get update && apt-get install -y \
+    # Essential Chrome dependencies (minimal set)
     wget \
     gnupg \
     ca-certificates \
-    procps \
-    libxss1 \
-    libgconf-2-4 \
-    libxrandr2 \
+    fonts-liberation \
+    libappindicator3-1 \
     libasound2 \
-    libpangocairo-1.0-0 \
+    libatk-bridge2.0-0 \
     libatk1.0-0 \
     libcairo2 \
     libcups2 \
     libdbus-1-3 \
-    libexpat1 \
-    libfontconfig1 \
-    libgcc1 \
+    libdrm2 \
+    libgbm1 \
     libgconf-2-4 \
     libgdk-pixbuf2.0-0 \
     libglib2.0-0 \
     libgtk-3-0 \
     libnspr4 \
+    libnss3 \
     libpango-1.0-0 \
     libpangocairo-1.0-0 \
-    libstdc++6 \
     libx11-6 \
     libx11-xcb1 \
     libxcb1 \
@@ -40,63 +47,62 @@ RUN apt-get update && apt-get install -y \
     libxss1 \
     libxtst6 \
     libxshmfence1 \
-    libgbm1 \
-    libnss3 \
-    libnspr4 \
-    libatk1.0-0 \
-    libatk-bridge2.0-0 \
-    libdrm2 \
-    libxkbcommon0 \
-    libatspi2.0-0 \
-    xvfb \
-    fonts-liberation \
-    libappindicator1 \
-    lsb-release \
-    xdg-utils \
-    --no-install-recommends
-
-# Install Google Chrome Stable
-RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
-    && sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list' \
+    # Process management
+    procps \
+    # Clean up in same layer to reduce image size
+    && wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
+    && echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google.list \
     && apt-get update \
     && apt-get install -y google-chrome-stable \
-    && rm -rf /var/lib/apt/lists/*
+    && apt-get autoremove -y \
+    && apt-get autoclean \
+    && rm -rf /var/lib/apt/lists/* \
+    && rm -rf /tmp/* \
+    && rm -rf /var/tmp/*
 
-# Create app directory
+# Create app directory and user in single step
+RUN groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser \
+    && mkdir -p /app /home/pptruser/Downloads /app/data /app/logs \
+    && chown -R pptruser:pptruser /home/pptruser /app
+
+# Set working directory
 WORKDIR /app
 
-# Create a user to run the app (security best practice)
-RUN groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser \
-    && mkdir -p /home/pptruser/Downloads \
-    && chown -R pptruser:pptruser /home/pptruser \
-    && chown -R pptruser:pptruser /app
-
-# Copy package files
-COPY package*.json ./
-
-# Install dependencies
-RUN npm ci --only=production
+# Copy package files and install dependencies
+COPY --chown=pptruser:pptruser package*.json ./
+RUN npm ci --only=production --no-optional \
+    && npm cache clean --force
 
 # Copy application code
-COPY . .
+COPY --chown=pptruser:pptruser . .
 
-# Create data and logs directories
-RUN mkdir -p /app/data /app/logs && chown -R pptruser:pptruser /app/data /app/logs
+# Create startup script with resource limits
+RUN echo '#!/bin/bash\n\
+# Set resource limits\n\
+ulimit -n 1024\n\
+ulimit -u 512\n\
+ulimit -v 1048576\n\
+\n\
+# Start the application with memory limits\n\
+exec node --max-old-space-size=512 --gc-interval=100 main.js\n\
+' > /app/start.sh \
+    && chmod +x /app/start.sh \
+    && chown pptruser:pptruser /app/start.sh
 
 # Switch to non-root user
 USER pptruser
 
-# Set environment variables
-ENV NODE_ENV=production
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
-ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/google-chrome-stable
-
 # Expose port
 EXPOSE 9000
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 \
-    CMD node healthcheck.js
+# Set resource limits in the container
+# These should be set by your container runtime (Docker/K8s)
+LABEL resource.memory="1GB"
+LABEL resource.cpu="0.5"
 
-# Start the application
-CMD ["node", "main.js"]
+# Health check with timeout
+HEALTHCHECK --interval=30s --timeout=10s --start-period=10s --retries=3 \
+    CMD node healthcheck.js || exit 1
+
+# Use the startup script
+CMD ["/app/start.sh"]
